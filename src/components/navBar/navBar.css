@@ -1,0 +1,36 @@
+nav{
+    background: rgb(192, 87, 87);
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 70px;
+}
+
+nav > h5{
+    color: aliceblue;
+}
+
+.search > input{
+    height: 40px;
+    border: none;
+}
+
+
+.search > button{
+    background: #7d7979;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.searchInput  {
+    border-start-end-radius: 50px;
+}
+.searchButton{
+    border-top-left-radius: 50px;
+    width: 70px;
+}

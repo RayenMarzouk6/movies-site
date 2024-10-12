@@ -1,0 +1,21 @@
+.fl {
+   display: flex;
+  }
+  
+.bnt{
+   background: rgba(192, 87, 87, 0.308);
+   color: rgba(192, 87, 87);
+}  
+
+.bnt:hover{
+   border: 1px solid rgba(192, 87, 87);
+   color: rgba(192, 87, 87);
+}
+
+.option{
+   margin: 15px;
+}
+
+.relative{
+   position: relative;
+}

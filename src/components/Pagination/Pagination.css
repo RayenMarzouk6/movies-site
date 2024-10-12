@@ -1,0 +1,9 @@
+.navigate{
+    display: flex;
+    justify-content: center;
+}
+
+.selectedPage{
+    background: rgb(192, 87, 87);
+
+}

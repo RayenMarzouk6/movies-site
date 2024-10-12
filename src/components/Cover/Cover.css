@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+.relative {
+    position: relative; /* Establishes a containing block for absolutely positioned elements */
+  }
+  
+  .text-dark {
+    position: relative; /* Ensures that the h1 stays within the flow of the document */
+    z-index: 2; /* Ensure this is above the SVG */
+    width: 65%;
+    font-size: 35px;
+    font-family: "Qwitcher Grypen", cursive;
+  }
+  
+  .wave {
+    position: absolute; /* Positions the SVG relative to the closest positioned ancestor */
+    top: -70px; /* Adjust this value to move the SVG vertically */
+    left: 50%; /* Center horizontally based on its width */
+    transform: translateX(-50%); /* Corrects for the 50% left positioning */
+    z-index: 1; /* Ensure this is below the h1 */
+    width: 80%; /* Ensures the SVG scales properly */
+  }
+  

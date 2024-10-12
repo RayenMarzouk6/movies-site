@@ -1,0 +1,35 @@
+.cardd{
+    width: 100%;
+}
+
+.card_overlay{
+    position: absolute;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+
+.card_overlay:hover{
+    display: block;
+    cursor: pointer;
+    color: rgb(255, 247, 247);
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.676);
+}
+
+.card_overlay:hover > .cardd img {
+    filter: blur(2px);
+}
+
+.card{
+    z-index: 2;
+    margin-top: 40px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
